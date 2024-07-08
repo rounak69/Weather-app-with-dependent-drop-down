@@ -1,0 +1,68 @@
+body {
+    background: radial-gradient(
+        circle, 
+        rgba(255, 255, 255, 0.929) 0%,
+        rgb(230, 230, 230) 100%
+        );
+}
+.container{
+    margin-top: 2rem;
+    max-width: 25rem;
+    background: radial-gradient(
+        circle, 
+        rgb(156, 226, 193) 25%,
+        rgb(25, 205, 142) 100%
+        );
+        border-radius: 10px;
+        /* box-shadow: 1px 2px 10px #d0c496; */
+        border: 2px solid rgba(1, 90, 172, 0.85);
+}
+#weatherwidget{
+    min-height: 18rem;
+    background: #fff;
+    border-radius: 5px;
+}
+.card{
+    width: 100%;
+}
+.c-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 50%;
+    width: 38%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+}
+.centered-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.card .card-subtitle{
+    font-size: 4rem;
+}
+.card .cel:after{
+    content: "°C";
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    font-weight: 400;
+}
+.text-light {
+    --bs-text-opacity: 8;
+    color: rgb(0, 99, 205) !important;
+}
+.units a{
+    color: #ccc;
+text-decoration: none;
+}
+
+.units a.active{
+    
+    color: #666;
+}
